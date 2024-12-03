@@ -7,7 +7,7 @@ from PIL import Image
 import numpy as np
 import re
 
-sql_engine = create_engine(f"mysql+pymysql://avnadmin:{st.secrets['aiven_pwd']}@mysql-nfl-mhoffmann-nfl.b.aivencloud.com:10448/defaultdb")
+sql_engine = create_engine(f"mysql+pymysql://avnadmin:{st.secrets['aiven_pwd']}@mysql-nfl-mhoffmann-nfl.b.aivencloud.com:10448/nfl")
 
 st.set_page_config(layout="wide")
 
